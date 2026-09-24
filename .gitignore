@@ -123,10 +123,6 @@ coverage.xml
 pytest-report.xml
 test-results/
 
-# -------------------------
-# Generated API / docs
-# -------------------------
-*.html
 
 # -------------------------
 # Archives
