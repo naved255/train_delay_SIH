@@ -70,11 +70,10 @@ htmlcov/
 *.pickle
 *.joblib
 
-# Ignore trained models by default
-ml-service/models/
+*.joblib
 
-# But keep model directory structure
-!ml-service/models/.gitkeep
+# Keep the production LightGBM model
+!ml-service/models/lgbm_railway_delay.joblib
 
 # -------------------------
 # ML experiment outputs
